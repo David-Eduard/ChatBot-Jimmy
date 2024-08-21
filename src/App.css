@@ -1,0 +1,185 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bg{
+  height: 100vh;
+  background-size: cover;
+  background-image: url(./img/bg.png);
+}
+.container {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 45%;
+  left: 50%;
+}
+form {
+  background: transparent;
+  padding: 5vh;
+  height: 70vh;
+  width: 130vh;
+  border: 0.5vh solid black;
+  border-radius: 2.5vh;
+  backdrop-filter: blur(0.4vh);
+  text-align: center;
+  position: relative;
+}
+p {
+    font-weight: 1000;
+    color: white;
+    font-size: 5vh;
+    /*margin-top: 0;
+    margin-bottom: 45vh;*/
+    
+}
+textarea{
+  background: transparent;
+  width: 125vh;
+  height: 10vh;
+  text-align: center;
+  border: #fff solid;
+  border-radius: 5vh;
+  backdrop-filter: blur(5vh);
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 4vh;
+  border-right: 10vh;
+}
+button{
+  background: transparent;
+  width: 15vh;
+  height: 10vh;
+  border: #fff solid;
+  border-radius: 5vh;
+  backdrop-filter: blur(5vh);
+  color: white;
+  font-family: Montserrat, sans-serif;
+  font-size: 3vh;
+  font-weight: 700; 
+}
+footer {
+  background-color: #28282B;
+  background-image: linear-gradient(#28282B, black);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+}
+.bottom {
+  height: 10%;
+  margin-left: 1vh;
+  margin-bottom: 1vh;
+  margin-top: 2.5vh;
+  color: white;
+  font-size: 2vh;
+  text-align: left;
+}
+.logo {
+  font-size: 1vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.fa {
+  padding: 2vh;
+  font-size: 1.5vh;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+.fa-twitter {
+  position: absolute;
+  top: 22%;
+  left: 87%;
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  position: absolute;
+  top: 22%;
+  left: 93%;
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  position: absolute;
+  top: 22%;
+  left: 90%;
+  background-image: linear-gradient(to bottom right, purple, red, yellow);
+  color: white;
+}
+
+.fa-yahoo {
+  position: absolute;
+  top: 22%;
+  left: 96%;
+  background: #430297;
+  color: white;
+}
+
+.support{
+  position: absolute;
+  top: 2%;
+  left: 1%;
+  padding: 1vh;
+  text-align: justify;
+}
+
+.team{
+  position: absolute;
+  top: 2%;
+  left: 6%;
+  padding: 1vh;
+  text-align: justify;
+}
+
+.response{
+  
+  background-color: transparent;
+  width: 120vh;
+  border: transparent;
+  padding: 50px;
+  color: white;
+  text-align: justify;
+  font-size: 2.5vh;
+}
